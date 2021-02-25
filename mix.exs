@@ -26,7 +26,7 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
   defp deps do
     [
       {:commanded, ">= 0.15.0", runtime: false},
-      {:eventstore, ">= 0.13.0"},
+      {:eventstore, github: "he9lin/eventstore", ref: "cb55906"},
       {:ex_doc, "~> 0.17", only: :dev},
       {:mix_test_watch, "~> 0.5", only: :dev},
     ]
